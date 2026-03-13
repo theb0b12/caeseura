@@ -1,6 +1,7 @@
 # Caeseura
 
-**cae·sue·ra**
+**cae·sue·ra\**
+
 /siːˈzʊrə/
 
 **noun**
