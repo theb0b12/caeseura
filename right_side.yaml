@@ -1,0 +1,427 @@
+units:
+  # kx and ky allow for easy- easi-er switching between MX and Choc.
+  kx: u
+  ky: u
+  px: kx + 2
+  py: ky + 2
+  # These variables allow for updating the previews on https://ergogen.ceoloide.com
+  $default_width: u
+  $default_height: u
+  # KiCAD places the PCB in the middle of nowhere to start with.
+  # These variables give a starting place for later shifts.
+  starting_x: -50
+  starting_y: -100
+
+  # Defaults to M2 Screws
+  screwSize: 1
+  standoffSize: 2.5
+
+points:
+  zones:
+
+    r2right:
+      anchor:
+        shift: ["starting_x + 200", "starting_y"]
+      columns:
+        y:
+          key:
+            column_net: P0
+        u:
+          key:
+            column_net: P1
+        i:
+          key:
+            column_net: P2
+        o:
+          key:
+            column_net: P3
+        p:
+          key:
+            column_net: P4
+        backspace:
+          key:
+            column_net: P5
+        delete:
+          key:
+            column_net: P6
+      rows:
+        single:
+          row_net: P7
+
+    r3right:
+      anchor:
+        shift: ["starting_x + 200 + 0.37kx", "starting_y - ky"]
+      columns:
+        h:
+          key:
+            column_net: P0
+        j:
+          key:
+            column_net: P1
+        k:
+          key:
+            column_net: P2
+        l:
+          key:
+            column_net: P3
+        colon:
+          key:
+            column_net: P4
+        quotes:
+          key:
+            column_net: P5
+            shift: ["0.25kx", 0]
+      rows:
+        single:
+          row_net: P8
+
+    r4right:
+      anchor:
+        shift: ["starting_x + 197", "starting_y - 2ky"]
+      columns:
+        b:
+          key:
+            column_net: P0
+        n: 
+          key: 
+            column_net: P1 
+        m: 
+          key: 
+            column_net: P2 
+        comma: 
+          key: 
+            column_net: P3
+        peroid:
+          key:
+            column_net: P4
+        up_arrow:
+          key:
+            column_net: P5
+        slash:
+          key:
+            column_net: P6
+      rows:
+        single:
+          row_net: P9
+
+    r5right:
+      anchor:
+        shift: ["starting_x + 216 + 3kx", "starting_y - 3ky"]
+      columns:
+        larrow:
+          key:
+            column_net: P4
+        darrow:
+          key:
+            column_net: P5
+        rarrow:
+          key:
+            column_net: P6
+      rows:
+        single:
+          row_net: P10
+
+    thumbfanright:
+      anchor:
+        shift: ["starting_x + 9.5ky", "starting_y - 3ky"]
+      columns:
+        space:
+          key:
+            column_net: P0
+            width: "1.5kx"
+            shift: [0.5kx, "-0.2ky"]
+        raise:
+          key:
+            column_net: P1
+            shift: [1kx, -0.2ky]
+      rows:
+        single:
+          row_net: P14
+          
+outlines:
+
+  keys:
+    - what: rectangle
+      where: true
+      size: [kx-0.5,ky-0.5]
+    - what: rectangle
+      where: [r3right_quotes_single]
+      size: [kx*1.4, ky]
+    - what: rectangle
+      where: [thumbfanright_space_single]
+      size: [kx*1.5, ky]
+
+      fillet: 2
+
+  board_right:
+    - what: polygon
+      operation: stack
+      points:
+        - ref: r2right_delete_single
+          shift: [0.5px, 0.5py]
+        - ref: r2right_delete_single
+          shift: [0.5px, -3ky - 0.5py]
+        - ref: r5right_larrow_single
+          shift: [-0.5px, -0.5py]
+        # - ref: r5right_larrow_single
+        #   shift: [-0.5px, 0]
+        # - ref: thumbfanright_raise_single
+        #   shift: [0.5px, 0]
+        - ref: thumbfanright_raise_single
+          shift: [0.3px, -0.5py]
+        - ref: thumbfanright_space_single
+          shift: [-0.25kx - 0.5px, -0.5py]
+        - ref: thumbfanright_space_single
+          shift: [-0.25kx - 0.5px - 0.5px, 1py]
+        # - 
+        #   orient: 60
+        #   shift: [0, 55]
+        - ref: thumbfanright_space_single
+          shift: [-0.25kx - 0.5px - 0.5px, 3.4py]
+
+
+      fillet: 3
+
+  
+
+  mounting:
+      - what: circle
+        radius: screwSize
+        where:
+          ref: [r2right_y_single]
+          shift: [-0.5kx, 0]
+      - what: circle
+        radius: screwSize
+        where:
+          ref: [r3right_h_single]
+          shift: [-0.9kx, -0.4ky]
+      - what: circle
+        radius: screwSize
+        where:
+          ref: [thumbfanright_raise_single]
+          shift: [0.65kx, 0.5ky]
+      - what: circle
+        radius: screwSize
+        where:
+          ref: [r5right_larrow_single]
+          shift: [-0.65kx, 0.3ky]
+      - what: circle
+        radius: screwSize
+        where:
+          ref: [r4right_slash_single]
+          shift: [0.55kx, 0]
+      - what: circle
+        radius: screwSize
+        where:
+          ref: [r3right_quotes_single]
+          shift: [0.6kx, 0.45ky]
+
+  standoff:
+      - what: circle
+        radius: standoffSize
+        where:
+          ref: [r2right_y_single]
+          shift: [-0.5kx, 0]
+      - what: circle
+        radius: standoffSize
+        where:
+          ref: [r3right_h_single]
+          shift: [-0.9kx, -0.4ky]
+      - what: circle
+        radius: standoffSize
+        where:
+          ref: [thumbfanright_raise_single]
+          shift: [0.65kx, 0.5ky]
+      - what: circle
+        radius: standoffSize
+        where:
+          ref: [r5right_larrow_single]
+          shift: [-0.65kx, 0.3ky]
+      - what: circle
+        radius: standoffSize
+        where:
+          ref: [r4right_slash_single]
+          shift: [0.55kx, 0]
+      - what: circle
+        radius: standoffSize
+        where:
+          ref: [r3right_quotes_single]
+          shift: [0.6kx, 0.45ky]
+
+
+  switch_plate_keys:
+        - what: rectangle
+          where: true
+          size: [13.9, 13.9]
+  
+  realBoard:
+    - name: board_right
+    - operation: subtract
+      name: switch_plate_keys
+    - operation: stack
+      name: standoff
+    - operation: stack
+      name: mounting
+
+  combo:
+    - name: board_right
+    - operation: subtract
+      name: keys
+
+  xlBoard:
+    - name: board_right
+      expand: 2
+    - name: mounting
+      operation: subtract
+
+  wall_outline:
+    - name: xlBoard
+    - operation: subtract
+      name: board_right
+
+  switch_plate:
+    - name: xlBoard
+    - operation: subtract
+      name: switch_plate_keys
+
+
+  
+
+pcbs:
+  right_pcbv2:
+    template: kicad8
+
+    outlines:
+      main:
+        outline: board_right
+
+    footprints:
+      choc_hotswap:
+        what: ceoloide/switch_choc_v1_v2
+        where: true
+        params:
+          hotswap: true
+          from: "{{column_net}}"
+          to: "{{colrow}}"
+          include_stabilizer_pad: false
+
+      mx_hotswap:
+        what: ceoloide/switch_mx
+        where: true
+        params:
+          hotswap: true
+          from: "{{column_net}}"
+          to: "{{colrow}}"
+        adjust:
+          rotate: 180
+
+      diode:
+        what: ceoloide/smd
+        where: true
+        params:
+          from: "{{colrow}}"
+          to: "{{row_net}}"
+        adjust:
+          shift: [0, -8]
+
+      nicenano:
+        what: ceoloide/mcu_nice_nano
+        where:
+          ref: r2right_y_single
+          shift: [-1.1kx, -0.32ky]
+        
+      battery_connector:
+        what: ceoloide/battery_connector_jst_ph_2
+        where: r2right_y_single
+        adjust:
+          shift: [-1kx, -1.45ky]
+          rotate: 270
+      
+
+      on_off_switch:
+        what: ceoloide/power_switch_smd_side
+        where: r4right_b_single
+        params:
+          from: BAT_P
+          to: RAW
+        adjust:
+          shift: [-1.62kx, 0.7ky]
+          rotate: 180
+
+      reset_switch:
+        what: ceoloide/reset_switch_tht_top
+        where: r4right_b_single
+        adjust:
+          shift: [-1.62kx, 1]
+          rotate: 90
+      
+      screwhole1:
+        what: ceoloide/mounting_hole_npth
+        where:
+          ref: [r2right_y_single]
+          shift: [-0.5kx, 0]
+      screwhole2:
+        what: ceoloide/mounting_hole_npth
+        where:
+          ref: [r3right_h_single]
+          shift: [-0.9kx, -0.4ky]
+      screwhole3:
+        what: ceoloide/mounting_hole_npth
+        where:
+          ref: [thumbfanright_raise_single]
+          shift: [0.65kx, 0.5ky]
+      screwhole4:
+        what: ceoloide/mounting_hole_npth
+        where:
+          ref: [r5right_larrow_single]
+          shift: [-0.65kx, 0.3ky]
+      screwhole5:
+        what: ceoloide/mounting_hole_npth
+        where:
+          ref: [r4right_slash_single]
+          shift: [0.55kx, 0]
+      screwhole6:
+        what: ceoloide/mounting_hole_npth
+        where:
+          ref: [r3right_quotes_single]
+          shift: [0.6kx, 0.45ky]
+
+  
+
+cases:
+  bottom:
+    - name: board_right
+      extrude: 1
+
+  xlBottom:
+    - name: xlBoard
+      extrude: 1
+
+  wall:
+    - name: wall_outline
+      extrude: 10
+
+  otherwall:
+    - name: wall_outline
+      extrude: 5
+
+
+  case:
+    - what: case
+      name: xlBottom
+      operation: add
+    - what: case
+      name: wall
+      operation: add
+
+  plate:
+    - name: switch_plate
+      extrude: 1.3
+
+  plate_tester:
+    - what: case
+      name: otherwall
+    - name: switch_plate
+      extrude: 2
+      shift: [0,0,5]
+    
