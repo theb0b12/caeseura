@@ -1,7 +1,6 @@
 # Caeseura
 
-**cae·sue·ra\**
-
+**cae·sue·ra**
 /siːˈzʊrə/
 
 **noun**
@@ -14,4 +13,4 @@
 
 ***etymology***
 
-Altered spelling of *caesura*, intentionally adding **e** as wordplay—referencing the city of Céüse in France, the sword **Caesura** from *The Kingkiller Chronicle*, and the concept of splitting or dividing.
+Altered spelling of *caesura*, intentionally adding **e** as wordplay—referencing the city of **Céüse** in France, the sword **Caesura** from *The Kingkiller Chronicle*, and the concept of splitting or dividing.
