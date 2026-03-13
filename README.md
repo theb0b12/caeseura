@@ -19,15 +19,15 @@ Altered spelling of *caesura*, intentionally adding the **e** as wordplay, refer
 
 ## Photos
 
-| | |
-|---|---|
-| ![PCBs bare](photos/IMG_7707.jpeg) | ![Left PCB close-up](photos/IMG_7708.jpeg) |
-| ![Right PCB](photos/IMG_7709.jpeg) | ![Hotswap sockets soldered](photos/IMG_7710.jpeg) |
-| ![First switch test](photos/IMG_7711.jpeg) | ![Both halves with switches](photos/IMG_7715.jpeg) |
-| ![Left half assembled](photos/IMG_7716.jpeg) | ![Right half assembled](photos/IMG_7717.jpeg) |
-| ![Full board with keycaps outdoors](photos/IMG_7718.jpeg) | ![Finished build — front](photos/IMG_7722.jpeg) |
-| ![Finished build — angle](photos/IMG_7723.jpeg) | ![Daily driver setup](photos/IMG_7724.jpeg) |
-| ![Side profile](photos/IMG_7725.jpeg) | |
+|                                                         |                                                  |
+| ------------------------------------------------------- | ------------------------------------------------ |
+| ![PCBs bare](photos/IMG_7707.jpeg)                        | ![Left PCB close-up](photos/IMG_7708.jpeg)         |
+| ![Right PCB](photos/IMG_7709.jpeg)                        | ![Hotswap sockets soldered](photos/IMG_7710.jpeg)  |
+| ![First switch test](photos/IMG_7711.jpeg)                | ![Both halves with switches](photos/IMG_7715.jpeg) |
+| ![Left half assembled](photos/IMG_7716.jpeg)              | ![Right half assembled](photos/IMG_7717.jpeg)      |
+| ![Full board with keycaps outdoors](photos/IMG_7718.jpeg) | ![Finished build — front](photos/IMG_7722.jpeg)   |
+| ![Finished build — angle](photos/IMG_7723.jpeg)          | ![Daily driver setup](photos/IMG_7724.jpeg)        |
+| ![Side profile](photos/IMG_7725.jpeg)                     |                                                  |
 
 ---
 
@@ -55,27 +55,27 @@ The left half carries a standard row-stagger with modifier keys (Escape, Tab, Sh
 
 This is the exact BOM used for the author's build. Total cost will vary depending on switch choice, shipping, and discounts.
 
-| Item | Qty | Unit Price | Total | Link |
-|---|---|---|---|---|
-| nice!nano v2 | 2 | $25.00 | $50.00 | [Typeractive](https://typeractive.xyz/products/nice-nano) |
-| Battery (PS3 controller replacement LiPo) | 1 | $15.49 | $15.49 | [Amazon](https://www.amazon.com/dp/B09726K2LC) |
-| PCB (left + right) | 1 set | $27.00 | $27.00 | JLCPCB — new users get ~$6 off with global direct shipping |
-| Switches (Choc) | 2 packs | $19.99 | $39.98 | [Amazon](https://www.amazon.com/dp/B0BLC9BKW8) |
-| Silent Choc switches (Ambients) | 1 set | $66.00 | $66.00 | [Holykeebs](https://holykeebs.com/products/ambients-silent-choc-switches?variant=47849514860834) |
-| Choc hotswap sockets (x10) | 5 packs | $1.50 | $7.50 | [Typeractive](https://typeractive.xyz/products/hotswap-sockets?variant=45742200324327) |
-| MX hotswap sockets | 5 packs | $1.50 | $7.50 | [Typeractive](https://typeractive.xyz/products/hotswap-sockets?variant=45742200291559) |
-| Reset switch (Panasonic EVQ-PUA02K) | 3 | $0.67 | $2.01 | [Digikey](https://www.digikey.com/en/products/detail/panasonic-electronic-components/EVQ-PUA02K/286334) |
-| Power switch (SMD) | 2 packs | $1.50 | $3.00 | [Typeractive](https://typeractive.xyz/products/power-switch) |
-| JST PH 2-pin battery connector | 2 | $0.10 | $0.20 | [Digikey](https://www.digikey.com/en/products/detail/jst-sales-america-inc/S2B-PH-K-S/926626) |
-| Keycaps | — | 3D printed | — | Print your own |
-| SOD-123 diodes (1N4148W) | 50 | $0.0495 | $2.48 | [Digikey](https://www.digikey.com/en/products/detail/diotec-semiconductor/1N4148W/18833653) |
-| Mill-Max 310 board sockets | 6 | $1.43 | $8.58 | [Digikey](https://www.digikey.com/en/products/detail/mill-max-manufacturing-corp/310-47-112-41-001000/7364039) |
-| Mill-Max 3320 pins | 65 | $0.0876 | $5.69 | [Digikey](https://www.digikey.com/en/products/detail/mill-max-manufacturing-corp/3320-0-00-15-00-00-03-0/4147392) |
-| Adhesive rubber feet | 1 pack | $6.99 | $6.99 | [Amazon](https://www.amazon.com/dp/B0DXH5D1FQ) |
-| M2x6mm FHCS screws | 1 pack | $8.69 | $8.69 | [Amazon](https://www.amazon.com/dp/B01MYRN6A1) |
-| M2x6mm Torx screws (alternative) | 1 pack | — | — | [Amazon](https://www.amazon.com/dp/B0F12R97BJ) |
-| M2 heat-set inserts | 1 pack | $6.99 | $6.99 | [Amazon](https://www.amazon.com/dp/B0FJXLNMLM) |
-| Metal rings (MagSafe compatibility) | 1 pack | $3.99 | $3.99 | [Amazon](https://www.amazon.com/dp/B0CY1ZB8YB) |
+| Item                                      | Qty     | Unit Price      | Total                                                                                                          | Link                                        |
+| ----------------------------------------- | ------- | --------------- | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------- |
+| nice!nano v2                              | 2       | $25.00 | $50.00 | [Typeractive](https://typeractive.xyz/products/nice-nano)                                                         |                                             |
+| Battery (PS3 controller replacement LiPo) | 1       | $15.49 | $15.49 | [Amazon](https://www.amazon.com/dp/B09726K2LC)                                                                    |                                             |
+| PCB (left + right)                        | 1 set   | $27.00 | $27.00 | JLCPCB — new users get ~$6 off with global direct shipping                                                    |                                             |
+| Switches (Choc)                           | 2 packs | $19.99 | $39.98 | [Amazon](https://www.amazon.com/dp/B0BLC9BKW8)                                                                    |                                             |
+| Silent Choc switches (Ambients)           | 1 set   | $66.00 | $66.00 | [Holykeebs](https://holykeebs.com/products/ambients-silent-choc-switches?variant=47849514860834)                  |                                             |
+| Choc hotswap sockets (x10)                | 5 packs | $1.50 | $7.50   | [Typeractive](https://typeractive.xyz/products/hotswap-sockets?variant=45742200324327)                            |                                             |
+| MX hotswap sockets                        | 5 packs | $1.50 | $7.50   | [Typeractive](https://typeractive.xyz/products/hotswap-sockets?variant=45742200291559)                            |                                             |
+| Reset switch (Panasonic EVQ-PUA02K)       | 3       | $0.67 | $2.01   | [Digikey](https://www.digikey.com/en/products/detail/panasonic-electronic-components/EVQ-PUA02K/286334)           |                                             |
+| Power switch (SMD)                        | 2 packs | $1.50 | $3.00   | [Typeractive](https://typeractive.xyz/products/power-switch)                                                      |                                             |
+| JST PH 2-pin battery connector            | 2       | $0.10 | $0.20   | [Digikey](https://www.digikey.com/en/products/detail/jst-sales-america-inc/S2B-PH-K-S/926626)                     |                                             |
+| Keycaps                                   | —      | 3D printed      | —                                                                                                             | Print your own                              |
+| SOD-123 diodes (1N4148W)                  | 50      | $0.0495 | $2.48 | [Digikey](https://www.digikey.com/en/products/detail/diotec-semiconductor/1N4148W/18833653)                       |                                             |
+| Mill-Max 310 board sockets                | 6       | $1.43 | $8.58   | [Digikey](https://www.digikey.com/en/products/detail/mill-max-manufacturing-corp/310-47-112-41-001000/7364039)    |                                             |
+| Mill-Max 3320 pins                        | 65      | $0.0876 | $5.69 | [Digikey](https://www.digikey.com/en/products/detail/mill-max-manufacturing-corp/3320-0-00-15-00-00-03-0/4147392) |                                             |
+| Adhesive rubber feet                      | 1 pack  | $6.99 | $6.99   | [Amazon](https://www.amazon.com/dp/B0DXH5D1FQ)                                                                    |                                             |
+| M2x6mm FHCS screws                        | 1 pack  | $8.69 | $8.69   | [Amazon](https://www.amazon.com/dp/B01MYRN6A1)                                                                    |                                             |
+| M2x6mm Torx screws (alternative)          | 1 pack  | —              | —                                                                                                             | [Amazon](https://www.amazon.com/dp/B0F12R97BJ) |
+| M2 heat-set inserts                       | 1 pack  | $6.99 | $6.99   | [Amazon](https://www.amazon.com/dp/B0FJXLNMLM)                                                                    |                                             |
+| Metal rings (MagSafe compatibility)       | 1 pack  | $3.99 | $3.99   | [Amazon](https://www.amazon.com/dp/B0CY1ZB8YB)                                                                    |                                             |
 
 **Total keys: 47** (24 left + 23 right, including thumb clusters)
 
@@ -104,6 +104,8 @@ Big thanks to **[@zakwaykway](https://github.com/zakwaykway)** for his knowledge
 Shoutout to the **[Ergogen Discord](https://discord.gg/ergogen)** and the **[ZMK Discord](https://zmk.dev/community)** communities — the collective knowledge in both servers made this project possible.
 
 Thanks to **[@genteure](https://github.com/genteure)** for his help with the board shield and his excellent tool **[ZMK Shield Wizard](https://shield-wizard.genteure.workers.dev/)**, which makes setting up custom ZMK shields dramatically easier.
+
+-- claude helped write this README... can you tell --
 
 ### Tools & Libraries
 
