@@ -53,27 +53,33 @@ The left half carries a standard row-stagger with modifier keys (Escape, Tab, Sh
 
 ## Bill of Materials (BOM)
 
-*Quantities are per half unless noted as "total".*
+This is the exact BOM used for the author's build. Total cost will vary depending on switch choice, shipping, and discounts.
 
-| Item | Qty (per half) | Notes |
-|---|---|---|
-| Caeseura PCB | 1 | See `pcbs/` — order from your preferred PCB fab (JLCPCB, PCBWay, etc.) |
-| nice!nano v2 | 1 | nRF52840-based wireless MCU |
-| Mill-Max 315 or 12-pin sockets | 2 rows | Recommended — lets you remove the nice!nano |
-| MX hotswap sockets | up to 24 | Kailh CPG151101S11 |
-| Choc v1/v2 hotswap sockets | up to 24 | Kailh CPG135001S30 — both MX and Choc sockets can be installed; use one type of switch at a time |
-| SOD-123 SMD diodes (1N4148W) | 24 | One per key |
-| JST PH 2-pin battery connector | 1 | Right-angle, SMD |
-| LiPo battery | 1 | 301230 or similar slim cell; must fit under the PCB |
-| SMD power switch | 1 | Panasonic EVQ-PAD04M or compatible side-mount |
-| Through-hole reset switch | 1 | 3×6mm or 4×4mm tactile, top-mount |
-| M2 screws | 6 | 6–8mm length |
-| M2 standoffs | 6 | Height depends on case — ~5mm for printed case |
-| MX or Choc switches | up to 24 | Your choice |
-| Keycaps | up to 24 | MX or Choc profile to match your switches |
-| 3D printed case parts | 1 set | Bottom, wall, switch plate — see `cases/` |
+| Item | Qty | Unit Price | Total | Link |
+|---|---|---|---|---|
+| nice!nano v2 | 2 | $25.00 | $50.00 | [Typeractive](https://typeractive.xyz/products/nice-nano) |
+| Battery (PS3 controller replacement LiPo) | 1 | $15.49 | $15.49 | [Amazon](https://www.amazon.com/dp/B09726K2LC) |
+| PCB (left + right) | 1 set | $27.00 | $27.00 | JLCPCB — new users get ~$6 off with global direct shipping |
+| Switches (Choc) | 2 packs | $19.99 | $39.98 | [Amazon](https://www.amazon.com/dp/B0BLC9BKW8) |
+| Silent Choc switches (Ambients) | 1 set | $66.00 | $66.00 | [Holykeebs](https://holykeebs.com/products/ambients-silent-choc-switches?variant=47849514860834) |
+| Choc hotswap sockets (x10) | 5 packs | $1.50 | $7.50 | [Typeractive](https://typeractive.xyz/products/hotswap-sockets?variant=45742200324327) |
+| MX hotswap sockets | 5 packs | $1.50 | $7.50 | [Typeractive](https://typeractive.xyz/products/hotswap-sockets?variant=45742200291559) |
+| Reset switch (Panasonic EVQ-PUA02K) | 3 | $0.67 | $2.01 | [Digikey](https://www.digikey.com/en/products/detail/panasonic-electronic-components/EVQ-PUA02K/286334) |
+| Power switch (SMD) | 2 packs | $1.50 | $3.00 | [Typeractive](https://typeractive.xyz/products/power-switch) |
+| JST PH 2-pin battery connector | 2 | $0.10 | $0.20 | [Digikey](https://www.digikey.com/en/products/detail/jst-sales-america-inc/S2B-PH-K-S/926626) |
+| Keycaps | — | 3D printed | — | Print your own |
+| SOD-123 diodes (1N4148W) | 50 | $0.0495 | $2.48 | [Digikey](https://www.digikey.com/en/products/detail/diotec-semiconductor/1N4148W/18833653) |
+| Mill-Max 310 board sockets | 6 | $1.43 | $8.58 | [Digikey](https://www.digikey.com/en/products/detail/mill-max-manufacturing-corp/310-47-112-41-001000/7364039) |
+| Mill-Max 3320 pins | 65 | $0.0876 | $5.69 | [Digikey](https://www.digikey.com/en/products/detail/mill-max-manufacturing-corp/3320-0-00-15-00-00-03-0/4147392) |
+| Adhesive rubber feet | 1 pack | $6.99 | $6.99 | [Amazon](https://www.amazon.com/dp/B0DXH5D1FQ) |
+| M2x6mm FHCS screws | 1 pack | $8.69 | $8.69 | [Amazon](https://www.amazon.com/dp/B01MYRN6A1) |
+| M2x6mm Torx screws (alternative) | 1 pack | — | — | [Amazon](https://www.amazon.com/dp/B0F12R97BJ) |
+| M2 heat-set inserts | 1 pack | $6.99 | $6.99 | [Amazon](https://www.amazon.com/dp/B0FJXLNMLM) |
+| Metal rings (MagSafe compatibility) | 1 pack | $3.99 | $3.99 | [Amazon](https://www.amazon.com/dp/B0CY1ZB8YB) |
 
 **Total keys: 47** (24 left + 23 right, including thumb clusters)
+
+> **Note:** The battery used here is a PS3 controller replacement LiPo — affordable, the right shape, and fits neatly under the PCB. Always verify polarity before connecting.
 
 ---
 
