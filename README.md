@@ -13,7 +13,7 @@
 
 ***etymology***
 
-Altered spelling of *caesura*, intentionally adding **e** as wordplay, referencing the city of **Céüse** in France, the sword **Caesura** from *The Kingkiller Chronicle*, and the concept of splitting or dividing.
+Altered spelling of *caesura*, intentionally adding the **e** as wordplay, referencing the city of **Céüse** in France, the sword **Caesura** from *The Kingkiller Chronicle*, and the concept of splitting or dividing.
 
 ---
 
@@ -85,97 +85,7 @@ This is the exact BOM used for the author's build. Total cost will vary dependin
 
 ## Build Guide
 
-### Tools needed
-
-- Soldering iron + solder (fine tip recommended for SMD work)
-- Flux
-- Tweezers
-- Multimeter (optional but helpful for continuity testing)
-- 3D printer or access to one (for case)
-- M2 screwdriver
-
----
-
-### Step 1 — Order the PCBs
-
-Use the production files in `pcbs/leftsidev2_withSS.zip` and `pcbs/rightsidev2_withSS.zip`. Upload the appropriate zip to your PCB fab. Recommended settings:
-
-- **Layers:** 2
-- **Thickness:** 1.6mm
-- **Finish:** HASL or ENIG
-- **Color:** your choice
-
----
-
-### Step 2 — Print the case
-
-Print the files from the `cases/` folder. The case consists of a bottom plate, a wall, and a switch plate. Recommended print settings:
-
-- **Material:** PLA or PETG
-- **Layer height:** 0.2mm
-- **Infill:** 20%+ for the walls
-- **Supports:** may be needed for the wall piece depending on orientation
-
----
-
-### Step 3 — Solder the SMD diodes
-
-Solder one SOD-123 diode per switch position. Each diode is marked on the silkscreen — match the cathode stripe on the diode to the line on the footprint. The diodes are located 8mm below each switch position.
-
-> **Tip:** Pre-tin one pad, place the diode, reflow, then solder the second pad.
-
----
-
-### Step 4 — Solder the hotswap sockets
-
-Install MX and/or Choc hotswap sockets depending on your switch preference. Both footprints are present on the PCB — you can populate both if you want to swap between switch types later, or just the ones you plan to use. Pre-tin one pad, hold the socket flush against the PCB, reflow, then solder the second pad.
-
----
-
-### Step 5 — Solder the power switch and reset button
-
-- **Power switch (SMD):** Solder the side-mount power switch. It connects `BAT_P` to `RAW`.
-- **Reset switch (THT):** Insert the through-hole tactile switch from the top of the PCB and solder from the underside.
-
----
-
-### Step 6 — Install the battery connector
-
-Solder the JST PH 2-pin connector. Double-check polarity before connecting a battery — red to `+`, black to `GND`. The connector is positioned to allow the battery to sit under the PCB.
-
----
-
-### Step 7 — Install the nice!nano
-
-Socket the nice!nano using Mill-Max 315 sockets (strongly recommended) or solder it directly. The MCU sits face-up on the PCB. Pin 1 is marked on both the PCB silkscreen and the nice!nano.
-
----
-
-### Step 8 — Flash ZMK firmware
-
-1. Clone or fork the ZMK config from `zmk-config-caeseura/`
-2. Set up ZMK following the [ZMK getting started guide](https://zmk.dev/docs/user-setup)
-3. Put the nice!nano into bootloader mode by double-tapping the reset button — it will appear as a USB drive
-4. Drag and drop the compiled `.uf2` file onto the drive
-5. Repeat for the other half
-
----
-
-### Step 9 — Test
-
-Before assembling into the case, plug in the left half (the central/USB half) and test each key using a keyboard tester. Use tweezers to short each hotswap socket pair if switches aren't installed yet.
-
----
-
-### Step 10 — Assemble the case
-
-1. Insert the standoffs into the mounting holes on the PCB
-2. Place the PCB into the case wall
-3. Attach the bottom plate with M2 screws
-4. Snap or screw the switch plate on top
-5. Install switches into the hotswap sockets
-6. Install keycaps
-7. Connect the battery and flip the power switch
+WIP
 
 ---
 
@@ -189,7 +99,7 @@ Built and designed by **[@theb0b12](https://github.com/theb0b12)**.
 
 A **massive** shoutout to **[@stardustArc](https://github.com/stardustArc)** (Discord: `@fuzzytomatohead_`) — she essentially walked through the entire design and build process step by step. This keyboard would not exist without her help.
 
-Big thanks to **[@zakwaykway](https://github.com/zakwaykway)** for his knowledge about switches and switch footprints — invaluable when figuring out the dual MX/Choc hotswap setup.
+Big thanks to **[@zakwaykway](https://github.com/zakwaykway)** for his knowledge about switches and switch footprints, it invaluable when figuring out the dual MX/Choc hotswap setup.
 
 Shoutout to the **[Ergogen Discord](https://discord.gg/ergogen)** and the **[ZMK Discord](https://zmk.dev/community)** communities — the collective knowledge in both servers made this project possible.
 
