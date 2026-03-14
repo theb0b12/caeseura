@@ -97,7 +97,7 @@ Built and designed by **[@theb0b12](https://github.com/theb0b12)**.
 
 ### Special Thanks
 
-A **massive** shoutout to **[@stardustArc](https://github.com/stardustArc)** (Discord: `@fuzzytomatohead_`) — she essentially walked through the entire design and build process step by step. This keyboard would not exist without her help.
+A **massive** shoutout to **[@stardustArc](https://github.com/stardustArc)** (Discord: `@.fuzzytomatohead_`) — she essentially walked through the entire design and build process step by step. This keyboard would not exist without her help.
 
 Big thanks to **[@zakwaykway](https://github.com/zakwaykway)** for his knowledge about switches and switch footprints, it invaluable when figuring out the dual MX/Choc hotswap setup.
 
