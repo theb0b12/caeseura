@@ -1,0 +1,57 @@
+#include <physical_layouts.dtsi>
+
+/ {
+    physical_layout_caeseura: physical_layout_caeseura {
+        compatible = "zmk,physical-layout";
+        display-name = "Caeseura";
+        keys  //                     w   h    x    y     rot    rx    ry
+            = <&key_physical_attrs 100 100(-1000)    0       0     0     0>
+            , <&key_physical_attrs 100 100(-894)    0       0     0     0>
+            , <&key_physical_attrs 100 100(-789)    0       0     0     0>
+            , <&key_physical_attrs 100 100(-683)    0       0     0     0>
+            , <&key_physical_attrs 100 100(-578)    0       0     0     0>
+            , <&key_physical_attrs 100 100(-472)    0       0     0     0>
+            , <&key_physical_attrs 100 100   56    0       0     0     0>
+            , <&key_physical_attrs 100 100  161    0       0     0     0>
+            , <&key_physical_attrs 100 100  267    0       0     0     0>
+            , <&key_physical_attrs 100 100  372    0       0     0     0>
+            , <&key_physical_attrs 100 100  478    0       0     0     0>
+            , <&key_physical_attrs 100 100  583    0       0     0     0>
+            , <&key_physical_attrs 100 100  689    0       0     0     0>
+            , <&key_physical_attrs 100 100(-987)  112       0     0     0>
+            , <&key_physical_attrs 100 100(-868)  112       0     0     0>
+            , <&key_physical_attrs 100 100(-762)  112       0     0     0>
+            , <&key_physical_attrs 100 100(-657)  112       0     0     0>
+            , <&key_physical_attrs 100 100(-551)  112       0     0     0>
+            , <&key_physical_attrs 100 100(-446)  112       0     0     0>
+            , <&key_physical_attrs 100 100   95  112       0     0     0>
+            , <&key_physical_attrs 100 100  200  112       0     0     0>
+            , <&key_physical_attrs 100 100  306  112       0     0     0>
+            , <&key_physical_attrs 100 100  411  112       0     0     0>
+            , <&key_physical_attrs 100 100  517  112       0     0     0>
+            , <&key_physical_attrs 100 100  649  112       0     0     0>
+            , <&key_physical_attrs 100 100(-960)  224       0     0     0>
+            , <&key_physical_attrs 100 100(-815)  224       0     0     0>
+            , <&key_physical_attrs 100 100(-710)  224       0     0     0>
+            , <&key_physical_attrs 100 100(-604)  224       0     0     0>
+            , <&key_physical_attrs 100 100(-499)  224       0     0     0>
+            , <&key_physical_attrs 100 100(-393)  224       0     0     0>
+            , <&key_physical_attrs 100 100   39  224       0     0     0>
+            , <&key_physical_attrs 100 100  144  224       0     0     0>
+            , <&key_physical_attrs 100 100  250  224       0     0     0>
+            , <&key_physical_attrs 100 100  356  224       0     0     0>
+            , <&key_physical_attrs 100 100  461  224       0     0     0>
+            , <&key_physical_attrs 100 100  567  224       0     0     0>
+            , <&key_physical_attrs 100 100  672  224       0     0     0>
+            , <&key_physical_attrs 100 100(-987)  335       0     0     0>
+            , <&key_physical_attrs 100 100(-855)  335       0     0     0>
+            , <&key_physical_attrs 100 100(-496)  358       0     0     0>
+            , <&key_physical_attrs 100 100(-335)  358       0     0     0>
+            , <&key_physical_attrs 100 100    0  358       0     0     0>
+            , <&key_physical_attrs 100 100  158  358       0     0     0>
+            , <&key_physical_attrs 100 100  461  335       0     0     0>
+            , <&key_physical_attrs 100 100  567  335       0     0     0>
+            , <&key_physical_attrs 100 100  672  335       0     0     0>
+            ;
+    };
+};
