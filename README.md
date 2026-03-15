@@ -58,7 +58,7 @@ This is the exact BOM used for the author's build. Total cost will vary dependin
 | Item                                      | Qty     | Unit Price      | Total                                                                                                          | Link                                        |
 | ----------------------------------------- | ------- | --------------- | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------- |
 | nice!nano v2                              | 2       | $25.00 | $50.00 | [Typeractive](https://typeractive.xyz/products/nice-nano)                                                         |                                             |
-| Battery (PS3 controller replacement LiPo) | 1       | $15.49 | $15.49 | [Amazon](https://www.amazon.com/dp/B09726K2LC)                                                                    |                                             |
+| Battery (PS3 controller replacement LiPo) | 1 set   | $15.49 | $15.49 | [Amazon](https://www.amazon.com/dp/B09726K2LC)                                                                    |                                             |
 | PCB (left + right)                        | 1 set   | $27.00 | $27.00 | JLCPCB — new users get ~$6 off with global direct shipping                                                    |                                             |
 | Switches (Choc)                           | 2 packs | $19.99 | $39.98 | [Amazon](https://www.amazon.com/dp/B0BLC9BKW8)                                                                    |                                             |
 | Silent Choc switches (Ambients)           | 1 set   | $66.00 | $66.00 | [Holykeebs](https://holykeebs.com/products/ambients-silent-choc-switches?variant=47849514860834)                  |                                             |
@@ -97,7 +97,7 @@ Built and designed by **[@theb0b12](https://github.com/theb0b12)**.
 
 ### Special Thanks
 
-A **massive** shoutout to **[@stardustArc](https://github.com/stardustArc)** (Discord: `@fuzzytomatohead_`) — she essentially walked through the entire design and build process step by step. This keyboard would not exist without her help.
+A **massive** shoutout to **[@stardustArc](https://github.com/stardustArc)** (Discord: `@.fuzzytomatohead_`) — she essentially walked through the entire design and build process step by step. This keyboard would not exist without her help.
 
 Big thanks to **[@zakwaykway](https://github.com/zakwaykway)** for his knowledge about switches and switch footprints, it invaluable when figuring out the dual MX/Choc hotswap setup.
 
