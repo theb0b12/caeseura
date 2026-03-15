@@ -1,4 +1,0 @@
-name: zmk-keyboard-caeseura
-build:
-  settings:
-    board_root: .
