@@ -13,7 +13,7 @@
 
 ***etymology***
 
-Altered spelling of *caesura*, intentionally adding the **e** as wordplay, referencing the city of **Céüse** in France, the sword **Caesura** from *The Kingkiller Chronicle*, and the concept of splitting or dividing.
+Altered spelling of *caesura*, intentionally adding the **e** as wordplay, referencing the spelling of the city of **Céüse** in France, the sword **Caesura** from *The Kingkiller Chronicle*, and the concept of splitting or dividing.
 
 ---
 
@@ -35,19 +35,15 @@ Altered spelling of *caesura*, intentionally adding the **e** as wordplay, refer
 
 - **47 keys** — row-staggered layout with a traditional feel and a compact footprint
 - **Split design** — two halves, place them wherever feels natural for your shoulders
-- **MX & Choc compatible** — hotswap sockets support MX, Choc v1, and Choc v2 switches simultaneously; no resoldering needed to switch between them
+- **MX & Choc compatible** — hotswap sockets support MX, Choc v1 or Choc v2 switches simultaneously; no resoldering needed to switch between them
 - **Wireless** — powered by the [nice!nano v2](https://nicekeyboards.com/nice-nano/) and [ZMK firmware](https://zmk.dev/), completely cable-free between halves
 - **Per-side batteries** — each half has its own JST PH 2-pin battery connector and SMD power switch; battery can be tucked under the PCB
 - **SMD diodes** — SOD-123 footprint, one per key
 - **Ergogen-designed PCB** — generated with [Ergogen](https://ergogen.xyz/) using the ceoloide footprint library; fully open source
-- **3D printed case** — printed bottom, wall, and switch plate; STL/step files included in `cases/`
+- **3D printed case** — printed case and switch plates; STL/step files included in `cases/`
 - **6 mounting holes per half** — M2 screws and standoffs for a solid, rattle-free build
-- **Reset button** — through-hole, top accessible, no case disassembly needed
+- **Reset button** — through-hole, side accessible, no case disassembly needed
 - **Open source** — PCB sources, case files, ZMK config, and Ergogen YAML all included
-
-### Layout
-
-The left half carries a standard row-stagger with modifier keys (Escape, Tab, Shift, Control, Super) sized at 1u–1.75u, plus a two-key thumb cluster. The right half mirrors the stagger with a seven-key top number row, standard alpha/symbol columns, a three-key arrow cluster, and a two-key thumb cluster.
 
 ---
 
@@ -121,4 +117,4 @@ Thanks to **[@genteure](https://github.com/genteure)** for his help with the boa
 
 ## License
 
-This project is open source. PCB design files, case files, and ZMK config are free to use, modify, and build from. If you make changes and share them, a link back here would be appreciated.
+This project is open source with the MIT license. PCB design files, case files, and ZMK config are free to use, modify, and build from. If you make changes and share them, a link back here would be appreciated.
