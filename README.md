@@ -31,6 +31,13 @@ Altered spelling of *caesura*, intentionally adding the **e** as wordplay, refer
 
 ---
 
+## Builds
+
+![Lu's Build](photos/DSC_6650.JPG)
+![Lu's Build](photos/DSC_6654.JPG)
+Lu's Build, with a custom case and nice Asymplex keycaps
+
+
 ## Features
 
 - **47 keys** — row-staggered layout with a traditional feel and a compact footprint
