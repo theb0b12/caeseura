@@ -33,8 +33,8 @@ Altered spelling of *caesura*, intentionally adding the **e** as wordplay, refer
 
 ## Builds
 
-![Lu's Build](photos/DSC_6650.JPG)
-![Lu's Build](photos/DSC_6654.JPG)
+![Lu's Build](photos/DSC_6707.JPG)
+![Lu's Build](photos/DSC_6725.JPG)
 Lu's Build, with a custom case and nice Asymplex keycaps
 
 
