@@ -31,7 +31,7 @@ Altered spelling of *caesura*, intentionally adding the **e** as wordplay, refer
 
 ![Lu's Build](photos/DSC_6707.JPG)
 ![Lu's Build](photos/DSC_6725.JPG)
-Lu's Build, with a custom case and nice Asymplex keycaps and 3D printed SC keycapys
+Lu's Build, with a custom case and nice Asymplex keycaps and 3D printed SC keycaps
 
 
 ## Features
@@ -84,7 +84,7 @@ Built and designed by **[@theb0b12](https://github.com/theb0b12)**.
 
 ### Special Thanks
 
-A massive shoutout to **[@stardustArc](https://github.com/stardustArc)** (Discord: `@.fuzzytomatohead`) - she essentially walked me through the entire design and build process step by step. This keyboard would not exist without her help.
+A massive shoutout to **[@stardustArc](https://github.com/stardustArc)** - she essentially walked me through the entire design and build process step by step. This keyboard would not exist without her help.
 
 Big thanks to **[@zakwaykway](https://github.com/zakwaykway)** for his knowledge about switches and switch footprints, it invaluable when figuring out the dual MX/Choc hotswap setup.
 
@@ -93,7 +93,7 @@ Shoutout to the **[Ergogen Discord](https://discord.com/invite/DbCfZfZ)** and th
 Thanks to **[@genteure](https://github.com/genteure)** for his help with the board shield and his excellent tool **[ZMK Shield Wizard](https://shield-wizard.genteure.workers.dev/)**, which makes setting up custom ZMK shields dramatically easier.
 
 
-### Tools & Libraries
+### Tools & Stuff
 
 - **[Ergogen](https://ergogen.xyz/)**
 - **[ceoloide footprint library](https://github.com/ceoloide/ergogen-footprints)**
