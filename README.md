@@ -4,16 +4,16 @@
 /siːˈzʊrə/
 
 **noun**
+1. in modern prosody : a usually rhetorical break in the flow of sound in the middle of a line of verse
+2. break, interruption
+    > "a *caesura* between the movie and its sequel"
+3.  a pause marking a rhythmic point of division in a melody
 
-1. a pause or break in the middle of a line of poetry, often used for emphasis or to create rhythm.
-   - "Shall I compare thee to a summer's day? // Thou art more lovely and more temperate."*
-2. a natural pause or interruption in speech or music.
-   - "His sentence had a long caesura, as if he were searching for the right words."*
-3. *(wordplay)* one who splits; something that divides or separates into two parts.
+[credit](https://www.merriam-webster.com/dictionary/caesura)
 
 ***etymology***
 
-Altered spelling of *caesura*, intentionally adding the **e** as wordplay, referencing the spelling of the city of **Céüse** in France, the sword **Caesura** from *The Kingkiller Chronicle*, and the concept of splitting or dividing.
+Altered spelling of *caesura*, intentionally adding the **e** as wordplay, referencing the spelling of the city of **Céüse** in France, a very cool sport climbing destiation and host to some of the hardest routes in the world. The sword **Caesura** from *The Kingkiller Chronicle*, great book btw. And the concept of splitting or dividing (get it, split keybs).
 
 ---
 
@@ -21,13 +21,9 @@ Altered spelling of *caesura*, intentionally adding the **e** as wordplay, refer
 
 |                                                         |                                                  |
 | ------------------------------------------------------- | ------------------------------------------------ |
-| ![PCBs bare](photos/IMG_7707.jpeg)                        | ![Left PCB close-up](photos/IMG_7708.jpeg)         |
-| ![Right PCB](photos/IMG_7709.jpeg)                        | ![Hotswap sockets soldered](photos/IMG_7710.jpeg)  |
-| ![First switch test](photos/IMG_7711.jpeg)                | ![Both halves with switches](photos/IMG_7715.jpeg) |
 | ![Left half assembled](photos/IMG_7716.jpeg)              | ![Right half assembled](photos/IMG_7717.jpeg)      |
-| ![Full board with keycaps outdoors](photos/IMG_7718.jpeg) | ![Finished build — front](photos/IMG_7722.jpeg)   |
-| ![Finished build — angle](photos/IMG_7723.jpeg)          | ![Daily driver setup](photos/IMG_7724.jpeg)        |
-| ![Side profile](photos/IMG_7725.jpeg)                     |                                                  |
+| ![Full board with keycaps outdoors](photos/IMG_7718.jpeg) | ![Side profile](photos/IMG_7725.jpeg)   |
+
 
 ---
 
@@ -35,28 +31,23 @@ Altered spelling of *caesura*, intentionally adding the **e** as wordplay, refer
 
 ![Lu's Build](photos/DSC_6707.JPG)
 ![Lu's Build](photos/DSC_6725.JPG)
-Lu's Build, with a custom case and nice Asymplex keycaps
+Lu's Build, with a custom case and nice Asymplex keycaps and 3D printed SC keycapys
 
 
 ## Features
 
-- **47 keys** — row-staggered layout with a traditional feel and a compact footprint
-- **Split design** — two halves, place them wherever feels natural for your shoulders
-- **MX & Choc compatible** — hotswap sockets support MX, Choc v1 or Choc v2 switches simultaneously; no resoldering needed to switch between them
-- **Wireless** — powered by the [nice!nano v2](https://nicekeyboards.com/nice-nano/) and [ZMK firmware](https://zmk.dev/), completely cable-free between halves
-- **Per-side batteries** — each half has its own JST PH 2-pin battery connector and SMD power switch; battery can be tucked under the PCB
-- **SMD diodes** — SOD-123 footprint, one per key
-- **Ergogen-designed PCB** — generated with [Ergogen](https://ergogen.xyz/) using the ceoloide footprint library; fully open source
-- **3D printed case** — printed case and switch plates; STL/step files included in `cases/`
-- **6 mounting holes per half** — M2 screws and standoffs for a solid, rattle-free build
-- **Reset button** — through-hole, side accessible, no case disassembly needed
-- **Open source** — PCB sources, case files, ZMK config, and Ergogen YAML all included
+- **47 keys**
+- **Row Staggerd**
+- **Split design**
+- **MX & Choc compatible** - hotswap sockets, choc v1 and v2 (if you snip the extra pin)
+- **Wireless** - powered by the [nice!nano v2](https://nicekeyboards.com/nice-nano/) and [ZMK firmware](https://zmk.dev/)
+- **Open source** - PCB sources, case files, ZMK config, and Ergogen YAML
 
 ---
 
 ## Bill of Materials (BOM)
 
-This is the exact BOM used for the author's build. Total cost will vary depending on switch choice, shipping, and discounts.
+This is the exact BOM used for the my build. Total cost will vary depending on switch choice, shipping, and discounts.
 
 | Item                                      | Qty     | Unit Price      | Total                                                                                                          | Link                                        |
 | ----------------------------------------- | ------- | --------------- | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------- |
