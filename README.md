@@ -31,13 +31,13 @@ Altered spelling of *caesura*, intentionally adding the **e** as wordplay, refer
 
 ![Lu's Build](photos/DSC_6707.JPG)
 ![Lu's Build](photos/DSC_6725.JPG)
-Lu's Build, with a custom case and nice Asymplex keycaps and 3D printed SC keycaps
+Lu's Build, with a custom case and nice Asymplex/3D-printed Subliminal Contraction keycaps
 
 
 ## Features
 
 - **47 keys**
-- **Row Staggerd**
+- **Row Staggered**
 - **Split design**
 - **MX & Choc compatible** - hotswap sockets, choc v1 and v2 (if you snip the extra pin)
 - **Wireless** - powered by the [nice!nano v2](https://nicekeyboards.com/nice-nano/) and [ZMK firmware](https://zmk.dev/)
@@ -47,12 +47,12 @@ Lu's Build, with a custom case and nice Asymplex keycaps and 3D printed SC keyca
 
 ## Bill of Materials (BOM)
 
-This is the exact BOM used for the my build. Total cost will vary depending on switch choice, shipping, and discounts.
+These are the things from my build. In hindsight I would've changed some things, use it with a couple more than a few grains of salt. Total cost will vary depending on switch choice, shipping, and discounts.
 
 | Item                                      | Qty     | Unit Price      | Total                                                                                                          | Link                                        |
 | ----------------------------------------- | ------- | --------------- | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------- |
 | nice!nano v2                              | 2       | $25.00 | $50.00 | [Typeractive](https://typeractive.xyz/products/nice-nano)                                                         |                                             |
-| Battery (PS3 controller replacement LiPo) | 1 set   | $15.49 | $15.49 | [Amazon](https://www.amazon.com/dp/B09726K2LC)                                                                    |                                             |
+| Batteries| 1 set   | $15.49 | $15.49 | [Amazon](https://www.amazon.com/dp/B09726K2LC)                                                                    |                                             |
 | PCB (left + right)                        | 1 set   | $27.00 | $27.00 | JLCPCB                                                     |                                             |
 | Switches (Choc)                           | ~47 | - | - | personal choice                                                                    |                                             |
 | Choc hotswap sockets (x10)                | 5 packs | $1.50 | $7.50   | [Typeractive](https://typeractive.xyz/products/hotswap-sockets?variant=45742200324327)                            |                                             |
@@ -84,11 +84,11 @@ Built and designed by **[@theb0b12](https://github.com/theb0b12)**.
 
 ### Special Thanks
 
-A massive shoutout to **[@stardustArc](https://github.com/stardustArc)** - she essentially walked me through the entire design and build process step by step. This keyboard would not exist without her help.
+A massive shout-out to **[@stardustArc](https://github.com/stardustArc)** - she essentially walked me through the entire design and build process step by step. This keyboard would not exist without her help.
 
 Big thanks to **[@zakwaykway](https://github.com/zakwaykway)** for his knowledge about switches and switch footprints, it invaluable when figuring out the dual MX/Choc hotswap setup.
 
-Shoutout to the **[Ergogen Discord](https://discord.com/invite/DbCfZfZ)** and the **[ZMK Discord](https://discord.com/invite/sycytVQ)** communities - the collective knowledge in both servers made this project possible.
+Shout-out to the **[Ergogen Discord](https://discord.com/invite/DbCfZfZ)** and the **[ZMK Discord](https://discord.com/invite/sycytVQ)** communities - the collective knowledge in both servers made this project possible.
 
 Thanks to **[@genteure](https://github.com/genteure)** for his help with the board shield and his excellent tool **[ZMK Shield Wizard](https://shield-wizard.genteure.workers.dev/)**, which makes setting up custom ZMK shields dramatically easier.
 
