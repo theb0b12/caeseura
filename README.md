@@ -19,18 +19,17 @@ Altered spelling of *caesura*, intentionally adding the **e** as wordplay, refer
 
 ## Photos
 
-|                                                         |                                                  |
-| ------------------------------------------------------- | ------------------------------------------------ |
-| ![Left half assembled](photos/IMG_7716.jpeg)              | ![Right half assembled](photos/IMG_7717.jpeg)      |
-| ![Full board with keycaps outdoors](photos/IMG_7718.jpeg) | ![Side profile](photos/IMG_7725.jpeg)   |
-
-
+| <img src="photos/IMG_7716.jpeg" width="550"> | <img src="photos/IMG_7717.jpeg" width="550"> |
+|---|---|
+| <img src="photos/IMG_7718.jpeg" width="550"> | <img src="photos/IMG_7725.jpeg" width="550"> |
 ---
 
 ## Builds
 
-![Lu's Build](photos/DSC_6707.JPG)
-![Lu's Build](photos/DSC_6725.JPG)
+<p float="left">
+  <img src="photos/DSC_6707.JPG" width="1005">
+  <img src="photos/DSC_6725.JPG" width="450">
+</p>
 Lu's Build, with a custom case and nice Asymplex/3D-printed Subliminal Contraction keycaps
 
 
