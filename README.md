@@ -28,7 +28,9 @@ Altered spelling of *caesura*, intentionally adding the **e** as wordplay, refer
 
 <p float="left">
   <img src="photos/DSC_6707.JPG" width="1005">
-  <img src="photos/DSC_6725.JPG" width="450">
+  <div align="center">
+    <img src="photos/DSC_6725.JPG" width="400">
+</div>
 </p>
 Lu's Build, with a custom case and nice Asymplex/3D-printed Subliminal Contraction keycaps
 
