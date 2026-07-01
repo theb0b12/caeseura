@@ -84,7 +84,7 @@ Built and designed by **[@theb0b12](https://github.com/theb0b12)**.
 
 ### Special Thanks
 
-A **massive** shoutout to **[@stardustArc](https://github.com/stardustArc)** (Discord: `@.fuzzytomatohead`) - she essentially walked me through the entire design and build process step by step. This keyboard would not exist without her help.
+A massive shoutout to **[@stardustArc](https://github.com/stardustArc)** (Discord: `@.fuzzytomatohead`) - she essentially walked me through the entire design and build process step by step. This keyboard would not exist without her help.
 
 Big thanks to **[@zakwaykway](https://github.com/zakwaykway)** for his knowledge about switches and switch footprints, it invaluable when figuring out the dual MX/Choc hotswap setup.
 
@@ -95,13 +95,13 @@ Thanks to **[@genteure](https://github.com/genteure)** for his help with the boa
 
 ### Tools & Libraries
 
-- **[Ergogen](https://ergogen.xyz/)** - PCB and case generation
-- **[ceoloide footprint library](https://github.com/ceoloide/ergogen-footprints)** - KiCad footprints used for all components
-- **[ZMK Firmware](https://zmk.dev/)** - wireless keyboard firmware
-- **[nice!nano](https://nicekeyboards.com/nice-nano/)** - wireless MCU
-- **[ZMK Shield Wizard](https://shield-wizard.genteure.workers.dev/)** - board shield generation by @genteure
-- **[Keymap Layout Tools](https://nickcoutsos.github.io/keymap-layout-tools/)** - layout visualization and editing
-- **[Keymap Editor](https://nickcoutsos.github.io/keymap-editor/)** - visual ZMK keymap editor by @nickcoutsos
+- **[Ergogen](https://ergogen.xyz/)**
+- **[ceoloide footprint library](https://github.com/ceoloide/ergogen-footprints)**
+- **[ZMK Firmware](https://zmk.dev/)**
+- **[nice!nano](https://nicekeyboards.com/nice-nano/)**
+- **[ZMK Shield Wizard](https://shield-wizard.genteure.workers.dev/)**
+- **[Keymap Layout Tools](https://nickcoutsos.github.io/keymap-layout-tools/)**
+- **[Keymap Editor](https://nickcoutsos.github.io/keymap-editor/)**
 
 ---
 
