@@ -29,15 +29,23 @@ Altered spelling of *caesura*, intentionally adding the **e** as wordplay, refer
 ## Builds
 
 <p float="left">
-  <img src="photos/DSC_6707.JPG" width="1005">
+  <img src="photos/nice-photos/DSC_6707.JPG" width="1005">
   <div align="center">
-    <img src="photos/DSC_6725.JPG" width="400">
+    <img src="photos/nice-photos/DSC_6725.JPG" width="400">
   </div>
 </p>
 
 Lu's Build, with a custom case and nice Asymplex/3D-printed Subliminal Contraction keycaps
 
 ---
+
+<p float="left">
+    <img src="photos/nice-photos/IMG_3553-1.JPG" width="1005">
+    <img src="photos/nice-photos/IMG_3563-1.JPG" width="1005">
+</p>
+
+My Build, with a custom display cover and nice MOA keycaps
+
 
 ## Features
 
