@@ -52,9 +52,9 @@ My Build, with a custom display cover and nice MOA keycaps
 - **47 keys**
 - **Row Staggered**
 - **Split design**
-- **MX & Choc compatible** — hotswap sockets, choc v1 and v2 (if you snip the extra pin)
-- **Wireless** — powered by the [nice!nano v2](https://nicekeyboards.com/nice-nano/) and [ZMK firmware](https://zmk.dev/)
-- **Open source** — PCB gerbers + kicad files, case files, ZMK config, and Ergogen YAML
+- **MX & Choc compatible** - hotswap sockets, choc v1 and v2 (if you snip the extra pin)
+- **Wireless** - powered by the [nice!nano v2](https://nicekeyboards.com/nice-nano/) and [ZMK firmware](https://zmk.dev/)
+- **Open source** - PCB gerbers + kicad files, case files, ZMK config, and Ergogen YAML
 
 ---
 
@@ -97,11 +97,11 @@ Built and designed by **[@theb0b12](https://github.com/theb0b12)**.
 
 ### Special Thanks
 
-A massive shout-out to **[@stardustArc](https://github.com/stardustArc)** — she essentially walked me through the entire design and build process step by step. This keyboard would not exist without her help.
+A massive shout-out to **[@stardustArc](https://github.com/stardustArc)** - she essentially walked me through the entire design and build process step by step. This keyboard would not exist without her help.
 
 Big thanks to **[@zakwaykway](https://github.com/zakwaykway)** for his knowledge about switches and switch footprints, invaluable when figuring out the dual MX/Choc hotswap setup.
 
-Shout-out to the **[Ergogen Discord](https://discord.com/invite/DbCfZfZ)** and the **[ZMK Discord](https://discord.com/invite/sycytVQ)** communities — the collective knowledge in both servers made this project possible.
+Shout-out to the **[Ergogen Discord](https://discord.com/invite/DbCfZfZ)** and the **[ZMK Discord](https://discord.com/invite/sycytVQ)** communities, the collective knowledge in both servers made this project possible.
 
 Thanks to **[@genteure](https://github.com/genteure)** for his help with the board shield and his excellent tool **[ZMK Shield Wizard](https://shield-wizard.genteure.workers.dev/)**, which makes setting up custom ZMK shields dramatically easier.
 
