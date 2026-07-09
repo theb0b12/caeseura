@@ -40,8 +40,8 @@ Lu's Build, with a custom case and nice Asymplex/3D-printed Subliminal Contracti
 ---
 
 <p float="left">
-    <img src="photos/nice-photos/IMG_3553-1.JPG" width="1005">
-    <img src="photos/nice-photos/IMG_3563-1.JPG" width="1005">
+    <img src="photos/nice-photos/IMG_3553-1.jpg" width="1005">
+    <img src="photos/nice-photos/IMG_3563-1.jpg" width="1005">
 </p>
 
 My Build, with a custom display cover and nice MOA keycaps
