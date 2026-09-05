@@ -119,4 +119,4 @@ Thanks to **[@genteure](https://github.com/genteure)** for his help with the boa
 
 ## License
 
-This project is open source with the MIT license. PCB design files, case files, and ZMK config are free to use, modify, and build from. If you make changes and share them, a link back here would be appreciated.
+This project is open source with the AGPLv3 license. PCB design files, case files, and ZMK config are free to use, modify, and build from. If you make changes and share them, a link back here would be appreciated.
