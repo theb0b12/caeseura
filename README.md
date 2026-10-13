@@ -99,7 +99,7 @@ Built and designed by **[@theb0b12](https://github.com/theb0b12)**.
 
 A massive shout-out to **[@stardustArc](https://github.com/stardustArc)** - she essentially walked me through the entire design and build process step by step. This keyboard would not exist without her help.
 
-Big thanks to **[@zakwaykway](https://github.com/zakwaykway)** for his knowledge about switches and switch footprints, invaluable when figuring out the dual MX/Choc hotswap setup.
+Big thanks to **[@zakwaykway](https://github.com/zakwaykway)** for their knowledge about switches and switch footprints, invaluable when figuring out the dual MX/Choc hotswap setup.
 
 Shout-out to the **[Ergogen Discord](https://discord.com/invite/DbCfZfZ)** and the **[ZMK Discord](https://discord.com/invite/sycytVQ)** communities, the collective knowledge in both servers made this project possible.
 
